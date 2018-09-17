@@ -2,3 +2,32 @@ h1.slot-title {
   color: red;
   font-weight: bold;
 }
+
+h2.money-title {
+  color: lightblue;
+  font-weight: bold;
+}
+
+.bottom-margin {
+  margin-bottom: 10px;
+}
+
+div.slot-controls {
+  background-color: aliceblue;
+  border: 1px solid lightgray;
+  border-radius: 2%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+div.slot-img {
+  border: 1px solid gray;
+}
+
+body {
+  background-color: #696969;
+}
+
+img.slot-img {
+  margin-top: 20px;
+}
