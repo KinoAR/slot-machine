@@ -20,37 +20,42 @@
       <h1 class="slot-title">Slot Machine</h1>
       <h3> Get 3 of a kind in a row to win a jackpot!</h3>
     </div>
-    <!-- Slot Images -->
-    <div class="slot-img col-xs-4 col-sm-4 col-md-3 col-lg-3 col-xl-3">
-      <img id="slotOne" class="slot-img rounded img-fluid" src="public/num7.png" alt="Slot Image One">
-    </div>
-    <div class="slot-img col-xs-4 col-sm-4 col-md-3 col-lg-3 col-xl-3">
-      <img id="slotTwo" class="slot-img rounded img-fluid" src="public/num7.png" alt="Slot Image Two">
-    </div>
-    <div class="slot-img col-xs-4 col-sm-4 col-md-3 col-lg-3 col-xl-3">
-      <img id="slotThree" class="slot-img rounded img-fluid" src="public/num7.png" alt="Slot Image Three">
-    </div>
-    <!-- Slot Machine Controls And Information -->
-    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 slot-controls">
-      <div class="row">
-        <div class="col-12">
-          <h2 id="moneyAmount" class="money-title"> You have </h2>
-        </div>
-        <div class="col-12">
-          <p>Bet Money (Select an amount)</p>
-          <div class="btn-group bottom-margin" role="group" aria-label="Betting Amount">
-            <button id="oneDollarBet" data-bet-amount="1" type="radio" name="betAmount" value="1" class="btn btn-secondary">1$</button>
-            <button id="threeDollarBet" data-bet-amount="3" type="radio" name="betAmount" value="3" class="btn btn-secondary">3$</button>
-            <button id="tenDollarBet" data-bet-amount="10" type="radio" name="betAmount" value="10" class="btn btn-secondary">10$</button>
+    <div class="row text-center">
+      <div class="">
+      </div>
+      <!-- Slot Images -->
+      <div class="slot-img  col-4 col-sm-3">
+        <img id="slotOne" class="slot-img rounded img-fluid" src="public/num7.png" alt="Slot Image One">
+      </div>
+      <div class="slot-img col-4 col-sm-3">
+        <img id="slotTwo" class="slot-img rounded img-fluid" src="public/num7.png" alt="Slot Image Two">
+      </div>
+      <div class="slot-img col-4 col-sm-3">
+        <img id="slotThree" class="slot-img rounded img-fluid" src="public/num7.png" alt="Slot Image Three">
+      </div>
+      <!-- Slot Machine Controls And Information -->
+      <div class="col-xs-12 col-sm-3 slot-controls">
+        <div class="row">
+          <div class="col-12">
+            <h2 id="moneyAmount" class="money-title"> You have </h2>
           </div>
-        </div>
-        <div class="col-12">
-          <button id="spinSlots" class="btn btn-success" onclick="spin()">
-            Spin <i class="fas fa-spinner"></i>
-          </button>  
+          <div class="col-12">
+            <p>Bet Money (Select an amount)</p>
+            <div class="btn-group bottom-margin" role="group" aria-label="Betting Amount">
+              <button id="oneDollarBet" data-bet-amount="1" type="radio" name="betAmount" value="1" class="btn btn-secondary">1$</button>
+              <button id="threeDollarBet" data-bet-amount="3" type="radio" name="betAmount" value="3" class="btn btn-secondary">3$</button>
+              <button id="tenDollarBet" data-bet-amount="10" type="radio" name="betAmount" value="10" class="btn btn-secondary">10$</button>
+            </div>
+          </div>
+          <div class="col-12">
+            <button id="spinSlots" class="btn btn-success" onclick="spin()">
+              Spin <i class="fas fa-spinner"></i>
+            </button>
+          </div>
         </div>
       </div>
     </div>
+   
   </div>
 </body>
 </html>
